@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+body {
+  background: #fff url(../gfx/bg.png);
+  margin-bottom: 250px;
+}
+
+h1 {
+  border-top: solid thin #ccc;
+}
+
+.container {
+  margin-top: 20px;
+  max-width: 970px;
+  background-color: rgb(230, 230, 230);
+  background-color: rgba(230, 230, 230, 0.5);
+  border: solid thin #ccc;
+  padding-top: 10px;
+}
+
+.repo {
+  display: inline-block;
+  margin: 10px 29px;
+  overflow: hidden;
+  position: relative;
+  border: solid thin #ccc;
+  width: 250px;
+  height: 250px;
+}
+
+.repo img {
+  display: block;
+  margin: auto;
+}
+
+.repo .caption {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  font-size: 18px;
+  text-align: center;
+  background: #eee;
+}
