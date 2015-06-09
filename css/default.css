@@ -5,18 +5,27 @@ body {
   margin-bottom: 250px;
 }
 
+h1 {
+  margin: 0px 5px 5px;
+}
+
 .container {
-  margin-top: 20px;
   max-width: 970px;
+}
+
+.box {
   background-color: rgb(230, 230, 230);
   background-color: rgba(230, 230, 230, 0.8);
   border: solid thin #d4d4d4;
-  padding-top: 10px;
+  padding: 10px 10px;
+  margin-top: 20px;
+  width: 100%;
 }
 
-.repo {
+.repo,
+.repo-plain {
   display: inline-block;
-  margin: 10px 29px;
+  margin: 10px 26px;
   overflow: hidden;
   position: relative;
   border: solid thin #d4d4d4;
@@ -24,12 +33,22 @@ body {
   height: 250px;
 }
 
-.repo img {
+.repos {
+  text-align: center;
+}
+
+.repo-plain {
+  border: none;
+}
+
+.repo img,
+.repo-plain img {
   display: block;
   margin: auto;
 }
 
-.repo .caption {
+.repo .caption,
+.repo-plain .caption {
   position: absolute;
   bottom: 0px;
   left: 0px;
@@ -38,4 +57,8 @@ body {
   text-align: center;
   background: #eee;
   padding: 0px 3px;
+}
+
+.repo-plain .caption {
+  background: none;
 }
