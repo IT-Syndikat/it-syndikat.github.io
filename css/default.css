@@ -22,10 +22,14 @@ h1 {
   width: 100%;
 }
 
+.repos {
+  padding: 10px 0px;
+}
+
 .repo,
 .repo-plain {
   display: inline-block;
-  margin: 10px 26px;
+  margin: 10px -4px 10px 47px;
   overflow: hidden;
   position: relative;
   border: solid thin #d4d4d4;
