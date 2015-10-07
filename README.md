@@ -1,3 +1,3 @@
-# ITSyndikat .github.io
+# IT-Syndikat .github.io
 
 Maintainer: W4RH4WK
